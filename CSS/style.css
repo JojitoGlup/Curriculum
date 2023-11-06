@@ -1,0 +1,161 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    
+}
+header{
+    background-color: #00b9bd;
+}
+footer{
+    background-color: #00b9bd;
+}
+.sec-biografia{
+    background-color: #fb6900;
+}
+.sec-acerca{
+    background-color: #f63700;
+}
+.sec-habilidad{
+    background-color: #004853;
+}
+.sec-proyecto{
+    background-color: #007e80;
+}
+.text-info{
+    font: bold;
+    color: aliceblue;
+}
+
+input{
+    height: 15px;
+}
+.hw-lbl{
+    height: 25px;
+}
+.h-50{
+    height: 50px;
+}
+.h-100{
+    height: 100px;
+}
+.h-210{
+    height: 220px;
+}
+.h-sec{
+    height: 75px;
+}
+.wh-text{
+    width: 20.2rem;
+    height: 7rem;
+    overflow: auto;
+}
+
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.mg-w100{
+    margin-top: 50px;
+}
+.border-input{
+    border-radius: 10px;
+}
+.border-btn{
+    background-color: #007bff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.border-btn:hover{
+    background-color: #0056b3;
+}
+
+.top-0{
+    top: 0rem;
+}
+
+.centrado{
+    display: grid;
+    place-items: center;
+}
+.centrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.centrar-div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.espacio{
+    margin: 15%;
+}
+
+.ubicacion-boton{
+    position: relative;
+
+}
+
+.float-button{
+    background: transparent;
+    border: none;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    transition: 0.5s;
+}
+.float-header{
+    top: 0rem;
+    right: 0rem;
+}
+.fixed{
+    position: fixed;
+}
+.img-rotate{
+    transition: transform 0.5s;
+}
+.img-rotate:hover{
+    transform: rotate(360deg);
+    transform-origin: center;
+}
+
+.text{
+    padding: 2em;
+    text-align: justify;
+}
+.padding{
+    padding: 2em;
+}
+.pdg-up{
+    padding-top: 15px;
+}
+.pdg-href{
+    padding-left: 10px;
+}
+.pdg-left-habilidades-1{
+    padding-left: 5em;
+}
+.pdg-left-habilidades-2{
+    padding-left: 2em;
+}
+.pdg-left{
+    padding-left: 7em;
+}
+.pdg-right{
+    padding-right: 7em;
+}
+.pdg-img{
+    padding-right: 2em;
+}
+.pdg-lbl-name{
+    padding-right: 4em;
+}
+.pdg-lbl-email{
+    padding-right: 4.5em;
+}
